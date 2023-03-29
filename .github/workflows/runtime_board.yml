@@ -10,7 +10,7 @@ jobs:
     name: Add issue to Runtime Issue Board
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/add-to-project@0.4.1
+      - uses: actions/add-to-project@0.4.0
         with:
           project-url: https://github.com/orgs/rive-app/projects/12
           github-token: ${{ secrets.PAT_GITHUB }}
